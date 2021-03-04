@@ -1,37 +1,37 @@
-Unofficial Clubhouse app for Android. Inspired by [this](https://github.com/stypr/clubhouse-py).
+Неофициальное приложение Clubhouse для Android. На основе [этого](https://github.com/stypr/clubhouse-py).
 
-Not to be taken seriously.
+Не воспринимайте всерьез.
 
-# FAQ
-### What works?
-* Login
-* Registration *should* work, but I suggest that you better use an iOS device to register
-* Seeing the list of rooms however the server recommends them
-* Joining rooms from said list and by direct links
-* Listening and speaking
-* Raising hand (asking to speak)
-* Accepting when a moderator allows you to speak
-* Real-time updates in to the participant list
-* Profiles
-* Following and unfollowing people
-* Followers/following lists
-* Updating your "bio"
+# ЧЗВ (Часто Задаваемые Вопросы)
+### Что работает?
+* Авторизация
+* Регистрация *должна* работать, но я советую использовать вам официальное приложение (на iOS) для регистрации
+* Увидев список комнат, сервер рекомендует их
+* Присоединение к комнатам (из списка и по прямым ссылкам)
+* Вы можете слушать и говорить
+* Поднятие руки (попросить говорить)
+* Принятие, когда модератор разрешает Вам говорить
+* Обновление списка участников в режиме реального времени
+* Профили
+* Подписки и отписки 
+* Списки подписчиков/подписок
+* Обновление Вашего "био"
 
-The rest isn't implemented. In particular, there are no notifications, and you can't create and moderate rooms. There's probably a hundred bugs in the existing functionality too.
+Остальное не реализовано. В частности, нет уведомлений, а также вы не можете создавать и модерировать комнаты. Возможно, в существующей функциональности тоже есть сотня ошибок.
 
-### Java? In %year%?! Why not Kotlin? Why are there no jetpack libraries? System fragments?!?! Are you out of your mind?
-Maybe I am. I use tools I'm most familiar with, not ones that are trendy at the particular day I'm starting the project.
+### Java? В %year%?! Почему не Kotlin? Почему нет библиотек для реактивных ранцев? (что) Системные фрагменты?!?! Ты сошел с ума?
+Возможно, сошел. Я использую инструменты, с которыми я больше знаком. А не те, которые являются модными в тот день, когда я начинаю проектю
 
-### The design...
-...sucks. Yes it does. See, this isn't meant to be a real product. I hastily put this together in 1.5 days. Alsmost like on a hackathon. This is more of a proof of concept, a stopgap measure before Clubhouse releases their official Android app that I'm sure they're making right now. It doesn't make sense to spend all this effort on something that's going to be obsolete in less than a year.
+### Дизайн...
+...отстой. Да, это так. Это не должно быть настоящим продуктом. Спешно собрал за 1,5 дня. Почти как на хакатоне. Это скорее подтверждение концепции, временная мера перед тем, как Clubhouse выпустит свое официальное приложение для Android, которое, я уверен, они делают прямо сейчас. Нет смысла тратить все эти усилия на то, что устареет менее чем через год.
 
-If you want to see a project where I do take UI/UX seriously and am obsessed over every little detail, go check out [Smithereen](https://github.com/grishka/Smithereen), the decentralized social media server.
+Если вы хотите увидеть проект, в котором *grishka* (автор оригинального репозитория) серьезно относится к UI/UX и зациклен на каждой мелочи, посетите [Smithereen](https://github.com/grishka/Smithereen), децентрализованный сервер социальных сетей.
 
-### Will this get my Clubhouse account banned?
-The probability of that happening is not zero.
+### Будет ли заблокирована моя учетная запись в Clubhouse?
+Вероятность этого не равна нулю.
 
-### Why did you make this?
-I saw that project with the Clubhouse API reverse engineersed and thought to myself *why not*. The only thing I had to reverse engineer myself was the PubNub part, but a pirated copy of Charles made a quick job of that.
+### Зачем ты это сделал?
+Я увидел этот проект с реконструированным API Clubhouse и подумал: *почему бы и нет?*. Единственное, что мне пришлось перепроектировать самому, это часть PubNub, но пиратская копия Charles быстро с этим справилась.
 
-### How do I build this?
-Import into Android Studio and click "run". Or, there's an apk you can install in the releases section.
+### Как собрать?
+Импортируйте в Android Studio и нажмите «Выполнить».. Или же, вы можете использовать apk-файл, который вы можете установить в разделе релизов.
